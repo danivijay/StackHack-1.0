@@ -4,6 +4,8 @@ Make sure **NodeJS and MongoDB are installed and running**. MongoDB Atlas (https
 
 ## Project 1. Event Manager
 
+![Event Manager Demo](demos/event_manager.gif)
+
 Localhost ports used: **3000, 3001, 5000**. Make sure these ports are available before proceeding
 
 1. Go to _event-manager/event-manager-backend_ in the terminal and start the backend server by running the commands `npm i` then `npm start`. If needed, make changes in `MONGO_URI` located at _event-manager/event-manager-backend/config/config.env_. The server will be running on localhost:3001
@@ -12,6 +14,8 @@ Localhost ports used: **3000, 3001, 5000**. Make sure these ports are available 
 4. The project will be available on **localhost:3000**, follow the UI to proceed.
 
 ## Project 2. Todo List
+
+![Todo List Demo](demos/todo_list.gif)
 
 Localhost ports used: **3000, 4000**. Make sure these ports are available before proceeding
 
