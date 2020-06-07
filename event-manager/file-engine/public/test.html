@@ -1,0 +1,16 @@
+<html>
+  <body>
+    <form
+      ref="uploadForm"
+      id="uploadForm"
+      action="https://file-engine.herokuapp.com/upload"
+      method="post"
+      enctype="multipart/form-data"
+    >
+      <input type="file" name="fileContent" />
+      <input type="text" name="fileProject" value="test" />
+      <input type="text" name="fileUniqId" value="1234" />
+      <input type="submit" value="Upload!" />
+    </form>
+  </body>
+</html>

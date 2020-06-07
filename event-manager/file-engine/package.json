@@ -1,0 +1,32 @@
+{
+  "name": "file-upload-engine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://danivijay:Ksb4DRsKwpLt7jV@github.com/danivijay/file-upload-engine.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danivijay/file-upload-engine/issues"
+  },
+  "homepage": "https://github.com/danivijay/file-upload-engine#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.1.7-alpha.3",
+    "morgan": "^1.10.0",
+    "rimraf": "^3.0.2",
+    "uuid": "^8.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
